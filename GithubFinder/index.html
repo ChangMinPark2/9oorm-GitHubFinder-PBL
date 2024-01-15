@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100&display=swap"
+          rel="stylesheet">
+    <title>capstone</title>
+    <style>
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .todo-list a {
+            display: block;
+            margin: 10px 0;
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+<header class="navbar">
+    <div class="navbar__logo">
+        <a href="">GitHub Finder</a>
+    </div>
+</header>
+
+<div class="top">
+    <h1>Search GitHub Users</h1>
+    Click button a username to fetch a user profile and repos<br>
+
+    <label>
+        <input id="userId" type="text" name="텍스트" size="30" placeholder="찾고자 하는 아이디를 입력해주세요.">
+    </label>
+
+    <button class="button-click" onclick="showImageAndRepos()">클릭 !</button>
+</div>
+
+<div class="image-style">
+    <img id="profileImage" class="image" src="">
+
+    <div id="profile">aa</div>
+</div>
+
+<h1 class="repo">Repositories</h1>
+<div class="container">
+    <div class="todo-list" id="list"></div>
+</div>
+
+<footer class="footer">
+    <address>Github Finder</address>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

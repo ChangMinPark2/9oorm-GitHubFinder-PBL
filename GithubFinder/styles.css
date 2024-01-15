@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: "Source Code Pro";
+}
+
+a{
+    text-decoration: none;
+    color: #A16B54;
+}
+
+.top {
+    text-align: center;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5d572;
+    padding: 8px 12px;
+}
+
+.navbar__logo{
+    font-size: 30px;
+    color: #E4C6B0;
+}
+
+#list {
+    display: block;
+    justify-content: space-between;
+    margin: 10px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+.repo {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 500px;
+    text-align: center;
+}
+
+.image-style {
+    overflow: hidden;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+#profile {
+    float: right;
+    width: 50%
+}
+
+#profileImage {
+    padding-left: 30px;
+    width: 40%;
+    height: 390px;
+    float: left;
+}
+
+* {
+    font-family: 'Jua', sans-serif;
+}
+
