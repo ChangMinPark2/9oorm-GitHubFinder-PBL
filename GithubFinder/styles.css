@@ -37,7 +37,7 @@ a{
 }
 
 .footer {
-    margin-top: 500px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -57,6 +57,7 @@ a{
     width: 40%;
     height: 390px;
     float: left;
+    visibility: hidden;
 }
 
 * {
