@@ -1,4 +1,4 @@
-# TodoApp 만들기 - PBL
+# GitHubFinder 만들기 - PBL
 https://changminpark2.github.io/9oorm-GitHubFinder-PBL/GithubFinder/
 
 ## 수행기간
